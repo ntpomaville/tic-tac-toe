@@ -2,9 +2,6 @@ object to create game board
     3x3 grid of buttons
         buttons accept x or o, or nothing if filled
 
-object to take in players
-    accept names from prompt
-
 object to control game flow
     alternate changing buttons to x/o
     check button text for 3 in row (3 columns, 3 rows, 2 diagonal)
@@ -12,9 +9,5 @@ object to control game flow
 
 object to reset game
     reset text on all buttons
-
-
-prompt to take player names
-    sends to players object
 
 button to reset game (call object)
